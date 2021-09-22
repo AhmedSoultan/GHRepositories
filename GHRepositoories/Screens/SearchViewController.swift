@@ -12,12 +12,12 @@ class SearchViewController: UIViewController {
     //MARK:- properties
     
     let searchView = GRSearchView(frame: .zero)
-
+    
     let coordinator = AppCoordinator.shared
     var isRepositoryNameEntered: Bool { return !searchView.repositoryNameTextField.text!.isEmpty }
-
+    
     //MARK:- view life cycle
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         createSearchView()
@@ -30,7 +30,7 @@ class SearchViewController: UIViewController {
     }
     
     //MARK:- custom actions
-
+    
     private func configureViewController() {
         view.backgroundColor = .systemBackground
         navigationController?.setNavigationBarHidden(true, animated: true)
@@ -60,6 +60,8 @@ class SearchViewController: UIViewController {
             return
         }
         coordinator.main.navigate(to: .results(repositoryName: searchView.repositoryNameTextField.text!), with: .push, and: self.navigationController)
+        view.endEditing(true)
+        searchView.repositoryNameTextField.text = ""
     }
 }
 
