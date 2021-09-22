@@ -6,8 +6,35 @@
 	<dict>
 		<key>GHRepositoories.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>GHRepositooriesTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>528E138D26F7548B00FBFB16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>528E13A326F7548E00FBFB16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>528E13AE26F7548E00FBFB16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

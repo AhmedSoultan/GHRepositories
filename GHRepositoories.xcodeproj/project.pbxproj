@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5215DBCB26FB8427002EE907 /* MockGRParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215DBCA26FB8427002EE907 /* MockGRParser.swift */; };
+		5215DBCE26FB8BFF002EE907 /* RepositoriesJson.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 5215DBCD26FB8BFF002EE907 /* RepositoriesJson.geojson */; };
+		526AE4E626FA5CE8007242BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AE4E526FA5CE8007242BC /* Constants.swift */; };
+		526AE4EB26FA7520007242BC /* CustomActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AE4EA26FA751F007242BC /* CustomActivityIndicatorView.swift */; };
+		526AE4ED26FA822B007242BC /* SearchViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AE4EC26FA822B007242BC /* SearchViewDelegate.swift */; };
+		526AE4F526FA97D0007242BC /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AE4F426FA97D0007242BC /* DateExtension.swift */; };
+		526AE4F726FA9C82007242BC /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AE4F626FA9C82007242BC /* UIViewControllerExtension.swift */; };
 		528E139226F7548B00FBFB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E139126F7548B00FBFB16 /* AppDelegate.swift */; };
 		528E139426F7548B00FBFB16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E139326F7548B00FBFB16 /* SceneDelegate.swift */; };
-		528E139626F7548B00FBFB16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E139526F7548B00FBFB16 /* ViewController.swift */; };
-		528E139926F7548B00FBFB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528E139726F7548B00FBFB16 /* Main.storyboard */; };
+		528E139626F7548B00FBFB16 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E139526F7548B00FBFB16 /* SearchViewController.swift */; };
 		528E139B26F7548D00FBFB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528E139A26F7548D00FBFB16 /* Assets.xcassets */; };
 		528E139E26F7548D00FBFB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528E139C26F7548D00FBFB16 /* LaunchScreen.storyboard */; };
 		528E13A926F7548E00FBFB16 /* GHRepositooriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13A826F7548E00FBFB16 /* GHRepositooriesTests.swift */; };
 		528E13B426F7548E00FBFB16 /* GHRepositooriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13B326F7548E00FBFB16 /* GHRepositooriesUITests.swift */; };
+		528E13C426F77DFB00FBFB16 /* GRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13C326F77DFB00FBFB16 /* GRButton.swift */; };
+		528E13C626F77E0E00FBFB16 /* GRTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13C526F77E0E00FBFB16 /* GRTextField.swift */; };
+		528E13C826F77E3400FBFB16 /* GRSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13C726F77E3400FBFB16 /* GRSearchView.swift */; };
+		528E13CB26F7C0D900FBFB16 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13CA26F7C0D900FBFB16 /* AppCoordinator.swift */; };
+		528E13D026F7C18400FBFB16 /* MainNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13CF26F7C18400FBFB16 /* MainNavigator.swift */; };
+		528E13D226F7C19B00FBFB16 /* NavigatorProptpcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13D126F7C19B00FBFB16 /* NavigatorProptpcol.swift */; };
+		528E13D526F7C5BD00FBFB16 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13D426F7C5BD00FBFB16 /* ResultsViewController.swift */; };
+		528E13D726F7CE0400FBFB16 /* GRBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13D626F7CE0400FBFB16 /* GRBodyLabel.swift */; };
+		528E13D926F7CE2E00FBFB16 /* GRTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13D826F7CE2E00FBFB16 /* GRTitleLabel.swift */; };
+		528E13DE26F7CFCE00FBFB16 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13DD26F7CFCE00FBFB16 /* ResultsTableViewCell.swift */; };
+		528E13E026F7D51F00FBFB16 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13DF26F7D51F00FBFB16 /* IconView.swift */; };
+		528E13E226F7DD4B00FBFB16 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E13E126F7DD4B00FBFB16 /* DetailsView.swift */; };
+		52918EE126F902DB00F34165 /* GRAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918EE026F902DB00F34165 /* GRAlertViewController.swift */; };
+		52918EE426F903E000F34165 /* GRClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918EE326F903E000F34165 /* GRClient.swift */; };
+		52918EE726F908F100F34165 /* GRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918EE626F908F100F34165 /* GRError.swift */; };
+		52918EEA26F909BF00F34165 /* RepositoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918EE926F909BF00F34165 /* RepositoriesResponse.swift */; };
+		52918EEE26F91CB900F34165 /* GRParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918EED26F91CB900F34165 /* GRParser.swift */; };
+		52918EF026F91CF400F34165 /* ParsingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918EEF26F91CF400F34165 /* ParsingProtocol.swift */; };
+		52918EF226F91DFF00F34165 /* RepositoriesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918EF126F91DFF00F34165 /* RepositoriesProvider.swift */; };
+		52918EF426F9236E00F34165 /* RepositoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918EF326F9236E00F34165 /* RepositoryResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +61,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5215DBCA26FB8427002EE907 /* MockGRParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGRParser.swift; sourceTree = "<group>"; };
+		5215DBCD26FB8BFF002EE907 /* RepositoriesJson.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = RepositoriesJson.geojson; sourceTree = "<group>"; };
+		526AE4E526FA5CE8007242BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		526AE4EA26FA751F007242BC /* CustomActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicatorView.swift; sourceTree = "<group>"; };
+		526AE4EC26FA822B007242BC /* SearchViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewDelegate.swift; sourceTree = "<group>"; };
+		526AE4F426FA97D0007242BC /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		526AE4F626FA9C82007242BC /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		528E138E26F7548B00FBFB16 /* GHRepositoories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHRepositoories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528E139126F7548B00FBFB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528E139326F7548B00FBFB16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		528E139526F7548B00FBFB16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		528E139826F7548B00FBFB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		528E139526F7548B00FBFB16 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		528E139A26F7548D00FBFB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		528E139D26F7548D00FBFB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		528E139F26F7548D00FBFB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +81,26 @@
 		528E13AF26F7548E00FBFB16 /* GHRepositooriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHRepositooriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528E13B326F7548E00FBFB16 /* GHRepositooriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHRepositooriesUITests.swift; sourceTree = "<group>"; };
 		528E13B526F7548E00FBFB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528E13C326F77DFB00FBFB16 /* GRButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRButton.swift; sourceTree = "<group>"; };
+		528E13C526F77E0E00FBFB16 /* GRTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRTextField.swift; sourceTree = "<group>"; };
+		528E13C726F77E3400FBFB16 /* GRSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRSearchView.swift; sourceTree = "<group>"; };
+		528E13CA26F7C0D900FBFB16 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		528E13CF26F7C18400FBFB16 /* MainNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigator.swift; sourceTree = "<group>"; };
+		528E13D126F7C19B00FBFB16 /* NavigatorProptpcol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorProptpcol.swift; sourceTree = "<group>"; };
+		528E13D426F7C5BD00FBFB16 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		528E13D626F7CE0400FBFB16 /* GRBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRBodyLabel.swift; sourceTree = "<group>"; };
+		528E13D826F7CE2E00FBFB16 /* GRTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRTitleLabel.swift; sourceTree = "<group>"; };
+		528E13DD26F7CFCE00FBFB16 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		528E13DF26F7D51F00FBFB16 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		528E13E126F7DD4B00FBFB16 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		52918EE026F902DB00F34165 /* GRAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRAlertViewController.swift; sourceTree = "<group>"; };
+		52918EE326F903E000F34165 /* GRClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRClient.swift; sourceTree = "<group>"; };
+		52918EE626F908F100F34165 /* GRError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRError.swift; sourceTree = "<group>"; };
+		52918EE926F909BF00F34165 /* RepositoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesResponse.swift; sourceTree = "<group>"; };
+		52918EED26F91CB900F34165 /* GRParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRParser.swift; sourceTree = "<group>"; };
+		52918EEF26F91CF400F34165 /* ParsingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingProtocol.swift; sourceTree = "<group>"; };
+		52918EF126F91DFF00F34165 /* RepositoriesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesProvider.swift; sourceTree = "<group>"; };
+		52918EF326F9236E00F34165 /* RepositoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +128,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5215DBCC26FB85F8002EE907 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				5215DBCA26FB8427002EE907 /* MockGRParser.swift */,
+			);
+			path = "Mock Data";
+			sourceTree = "<group>";
+		};
+		5215DBCF26FBBC75002EE907 /* parer test */ = {
+			isa = PBXGroup;
+			children = (
+				528E13A826F7548E00FBFB16 /* GHRepositooriesTests.swift */,
+			);
+			path = "parer test";
+			sourceTree = "<group>";
+		};
+		526AE4E726FA5F7B007242BC /* Activity Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				526AE4EA26FA751F007242BC /* CustomActivityIndicatorView.swift */,
+			);
+			path = "Activity Indicator";
+			sourceTree = "<group>";
+		};
+		526AE4E826FA5FA6007242BC /* Alert View */ = {
+			isa = PBXGroup;
+			children = (
+				52918EE026F902DB00F34165 /* GRAlertViewController.swift */,
+			);
+			path = "Alert View";
+			sourceTree = "<group>";
+		};
+		526AE4E926FA5FC9007242BC /* App Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				528E13CA26F7C0D900FBFB16 /* AppCoordinator.swift */,
+			);
+			path = "App Coordinator";
+			sourceTree = "<group>";
+		};
+		526AE4EE26FA8607007242BC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5215DBCD26FB8BFF002EE907 /* RepositoriesJson.geojson */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		526AE4F026FA8EAC007242BC /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				528E13C326F77DFB00FBFB16 /* GRButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		526AE4F126FA8F20007242BC /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				528E13D626F7CE0400FBFB16 /* GRBodyLabel.swift */,
+				528E13D826F7CE2E00FBFB16 /* GRTitleLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		526AE4F226FA8F36007242BC /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				528E13C526F77E0E00FBFB16 /* GRTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		526AE4F326FA97B4007242BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				526AE4F426FA97D0007242BC /* DateExtension.swift */,
+				526AE4F626FA9C82007242BC /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		528E138526F7548B00FBFB16 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +233,13 @@
 		528E139026F7548B00FBFB16 /* GHRepositoories */ = {
 			isa = PBXGroup;
 			children = (
-				528E139126F7548B00FBFB16 /* AppDelegate.swift */,
-				528E139326F7548B00FBFB16 /* SceneDelegate.swift */,
-				528E139526F7548B00FBFB16 /* ViewController.swift */,
-				528E139726F7548B00FBFB16 /* Main.storyboard */,
-				528E139A26F7548D00FBFB16 /* Assets.xcassets */,
-				528E139C26F7548D00FBFB16 /* LaunchScreen.storyboard */,
+				526AE4F326FA97B4007242BC /* Extensions */,
+				52918EE526F908D700F34165 /* Utilites */,
+				52918EE226F9039C00F34165 /* Model */,
+				528E13C226F77DBB00FBFB16 /* Custom Views */,
+				528E13D326F7C58600FBFB16 /* Screens */,
+				528E13C926F7C0B100FBFB16 /* Coordinator */,
+				528E13C126F77DAF00FBFB16 /* Support */,
 				528E139F26F7548D00FBFB16 /* Info.plist */,
 			);
 			path = GHRepositoories;
@@ -113,7 +248,9 @@
 		528E13A726F7548E00FBFB16 /* GHRepositooriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				528E13A826F7548E00FBFB16 /* GHRepositooriesTests.swift */,
+				526AE4EE26FA8607007242BC /* JSON */,
+				5215DBCC26FB85F8002EE907 /* Mock Data */,
+				5215DBCF26FBBC75002EE907 /* parer test */,
 				528E13AA26F7548E00FBFB16 /* Info.plist */,
 			);
 			path = GHRepositooriesTests;
@@ -126,6 +263,139 @@
 				528E13B526F7548E00FBFB16 /* Info.plist */,
 			);
 			path = GHRepositooriesUITests;
+			sourceTree = "<group>";
+		};
+		528E13C126F77DAF00FBFB16 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				528E139126F7548B00FBFB16 /* AppDelegate.swift */,
+				528E139326F7548B00FBFB16 /* SceneDelegate.swift */,
+				528E139A26F7548D00FBFB16 /* Assets.xcassets */,
+				528E139C26F7548D00FBFB16 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		528E13C226F77DBB00FBFB16 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				528E13DA26F7CE9300FBFB16 /* Cells */,
+				526AE4F226FA8F36007242BC /* TextField */,
+				526AE4F126FA8F20007242BC /* Labels */,
+				526AE4F026FA8EAC007242BC /* Button */,
+				528E13E326F7EC0700FBFB16 /* Search View */,
+				526AE4E826FA5FA6007242BC /* Alert View */,
+				526AE4E726FA5F7B007242BC /* Activity Indicator */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		528E13C926F7C0B100FBFB16 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				526AE4E926FA5FC9007242BC /* App Coordinator */,
+				528E13CC26F7C12A00FBFB16 /* Navigators */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		528E13CC26F7C12A00FBFB16 /* Navigators */ = {
+			isa = PBXGroup;
+			children = (
+				528E13CE26F7C16700FBFB16 /* Main Navigator */,
+				528E13CD26F7C15600FBFB16 /* Navigator Protocol */,
+			);
+			path = Navigators;
+			sourceTree = "<group>";
+		};
+		528E13CD26F7C15600FBFB16 /* Navigator Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				528E13D126F7C19B00FBFB16 /* NavigatorProptpcol.swift */,
+			);
+			path = "Navigator Protocol";
+			sourceTree = "<group>";
+		};
+		528E13CE26F7C16700FBFB16 /* Main Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				528E13CF26F7C18400FBFB16 /* MainNavigator.swift */,
+			);
+			path = "Main Navigator";
+			sourceTree = "<group>";
+		};
+		528E13D326F7C58600FBFB16 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				528E139526F7548B00FBFB16 /* SearchViewController.swift */,
+				528E13D426F7C5BD00FBFB16 /* ResultsViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		528E13DA26F7CE9300FBFB16 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				528E13DD26F7CFCE00FBFB16 /* ResultsTableViewCell.swift */,
+				528E13E126F7DD4B00FBFB16 /* DetailsView.swift */,
+				528E13DF26F7D51F00FBFB16 /* IconView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		528E13E326F7EC0700FBFB16 /* Search View */ = {
+			isa = PBXGroup;
+			children = (
+				528E13C726F77E3400FBFB16 /* GRSearchView.swift */,
+				526AE4EC26FA822B007242BC /* SearchViewDelegate.swift */,
+			);
+			path = "Search View";
+			sourceTree = "<group>";
+		};
+		52918EE226F9039C00F34165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52918EEC26F91C8D00F34165 /* Parsering */,
+				52918EEB26F91BA400F34165 /* Network */,
+				52918EE826F9099F00F34165 /* API Response */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52918EE526F908D700F34165 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				52918EE626F908F100F34165 /* GRError.swift */,
+				526AE4E526FA5CE8007242BC /* Constants.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		52918EE826F9099F00F34165 /* API Response */ = {
+			isa = PBXGroup;
+			children = (
+				52918EE926F909BF00F34165 /* RepositoriesResponse.swift */,
+				52918EF326F9236E00F34165 /* RepositoryResponse.swift */,
+			);
+			path = "API Response";
+			sourceTree = "<group>";
+		};
+		52918EEB26F91BA400F34165 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				52918EE326F903E000F34165 /* GRClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		52918EEC26F91C8D00F34165 /* Parsering */ = {
+			isa = PBXGroup;
+			children = (
+				52918EEF26F91CF400F34165 /* ParsingProtocol.swift */,
+				52918EF126F91DFF00F34165 /* RepositoriesProvider.swift */,
+				52918EED26F91CB900F34165 /* GRParser.swift */,
+			);
+			path = Parsering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +503,6 @@
 			files = (
 				528E139E26F7548D00FBFB16 /* LaunchScreen.storyboard in Resources */,
 				528E139B26F7548D00FBFB16 /* Assets.xcassets in Resources */,
-				528E139926F7548B00FBFB16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +510,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5215DBCE26FB8BFF002EE907 /* RepositoriesJson.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +528,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528E139626F7548B00FBFB16 /* ViewController.swift in Sources */,
+				528E139626F7548B00FBFB16 /* SearchViewController.swift in Sources */,
+				528E13E026F7D51F00FBFB16 /* IconView.swift in Sources */,
 				528E139226F7548B00FBFB16 /* AppDelegate.swift in Sources */,
+				52918EEE26F91CB900F34165 /* GRParser.swift in Sources */,
+				528E13DE26F7CFCE00FBFB16 /* ResultsTableViewCell.swift in Sources */,
+				526AE4ED26FA822B007242BC /* SearchViewDelegate.swift in Sources */,
+				52918EE726F908F100F34165 /* GRError.swift in Sources */,
+				528E13C626F77E0E00FBFB16 /* GRTextField.swift in Sources */,
+				528E13D226F7C19B00FBFB16 /* NavigatorProptpcol.swift in Sources */,
+				52918EE126F902DB00F34165 /* GRAlertViewController.swift in Sources */,
+				528E13D726F7CE0400FBFB16 /* GRBodyLabel.swift in Sources */,
+				528E13C826F77E3400FBFB16 /* GRSearchView.swift in Sources */,
+				526AE4F726FA9C82007242BC /* UIViewControllerExtension.swift in Sources */,
+				528E13C426F77DFB00FBFB16 /* GRButton.swift in Sources */,
+				52918EEA26F909BF00F34165 /* RepositoriesResponse.swift in Sources */,
 				528E139426F7548B00FBFB16 /* SceneDelegate.swift in Sources */,
+				52918EF226F91DFF00F34165 /* RepositoriesProvider.swift in Sources */,
+				52918EF026F91CF400F34165 /* ParsingProtocol.swift in Sources */,
+				52918EE426F903E000F34165 /* GRClient.swift in Sources */,
+				528E13D926F7CE2E00FBFB16 /* GRTitleLabel.swift in Sources */,
+				526AE4EB26FA7520007242BC /* CustomActivityIndicatorView.swift in Sources */,
+				528E13E226F7DD4B00FBFB16 /* DetailsView.swift in Sources */,
+				528E13D526F7C5BD00FBFB16 /* ResultsViewController.swift in Sources */,
+				526AE4F526FA97D0007242BC /* DateExtension.swift in Sources */,
+				528E13D026F7C18400FBFB16 /* MainNavigator.swift in Sources */,
+				52918EF426F9236E00F34165 /* RepositoryResponse.swift in Sources */,
+				528E13CB26F7C0D900FBFB16 /* AppCoordinator.swift in Sources */,
+				526AE4E626FA5CE8007242BC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +563,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5215DBCB26FB8427002EE907 /* MockGRParser.swift in Sources */,
 				528E13A926F7548E00FBFB16 /* GHRepositooriesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +592,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		528E139726F7548B00FBFB16 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				528E139826F7548B00FBFB16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		528E139C26F7548D00FBFB16 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,14 +727,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9NSK6LQZK;
 				INFOPLIST_FILE = GHRepositoories/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedSultan.GHRepositoories;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedSultan.GHRepositories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,14 +747,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9NSK6LQZK;
 				INFOPLIST_FILE = GHRepositoories/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedSultan.GHRepositoories;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedSultan.GHRepositories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
